@@ -1,0 +1,5 @@
+case_id,scenario,latency,data_types,history,consumers
+A,Daily sales dashboard from ERP tables,Daily,Structured,7 years,BI analysts
+B,Raw clickstream plus product and order analytics,Hourly,Structured and semi-structured,3 years,Data science and BI
+C,Fraud event detection,Seconds,Streaming JSON,90 days hot,Operations and ML
+D,Regulatory finance reporting,Daily,Highly structured,10 years,Finance and auditors
