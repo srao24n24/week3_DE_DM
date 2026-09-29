@@ -1,0 +1,5 @@
+format,file_size_bytes,row_count,order_date_dtype
+csv,32826,600,object
+csv_gz,4422,600,object
+jsonl,84952,600,int64
+parquet,12512,600,datetime64[ns]
