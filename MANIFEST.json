@@ -1,0 +1,138 @@
+{
+  "package": "Week3_Data_Engineering_Candidate_Package",
+  "file_count": 33,
+  "files": [
+    {
+      "path": "READING_LINKS.md",
+      "sha256": "265f4d7242b60e8cf9e11485a383dd803a1a4839dc2614c4054de58eb46e3008"
+    },
+    {
+      "path": "README_FIRST.md",
+      "sha256": "1dbb4042bca091e402c32e1aeba7f85ac6a4f82a711c4e745996d558250f01ee"
+    },
+    {
+      "path": "Week3_Data_Engineering_Candidate_Labs.docx",
+      "sha256": "81c65a1649fa75a30169fdb561fccca45e1eabd03fc4d69e99776802d4aa119a"
+    },
+    {
+      "path": "provided_data/day1_architecture_cases.csv",
+      "sha256": "6160c1b7f1cc9b5e0850dbebe759de8c63eead02cfd3ee7a3d7e9f532d984971"
+    },
+    {
+      "path": "provided_data/day2/orders_for_format_lab.csv",
+      "sha256": "8c35a4318c7834a4878eba61f85510a5cd5c7c2ae5aa7a4f4b6e0ecd5d07fbcc"
+    },
+    {
+      "path": "provided_data/day2/orders_for_format_lab.json",
+      "sha256": "f832e4e6885fa27c84e19fe865c533414c32aef8abd58da4c7b34402b9a7347e"
+    },
+    {
+      "path": "provided_data/day3/categories.csv",
+      "sha256": "a3e7f636d95a1c2119e4510e0ac987b44216000592ea874f8b0fc8ad7510a023"
+    },
+    {
+      "path": "provided_data/day3/customers.csv",
+      "sha256": "c4f00f5dd6ec006a2667cfef6d0e8799d655b9fa63ede58cceccaeaf7b3663c9"
+    },
+    {
+      "path": "provided_data/day3/order_items.csv",
+      "sha256": "9080cdae0da85b64ce5d5a360b1ba70ddd111bcaa019f58d1820e27cfe637259"
+    },
+    {
+      "path": "provided_data/day3/orders.csv",
+      "sha256": "8c35a4318c7834a4878eba61f85510a5cd5c7c2ae5aa7a4f4b6e0ecd5d07fbcc"
+    },
+    {
+      "path": "provided_data/day3/payments.csv",
+      "sha256": "36c3cd8443173c6c3d42fb02f19603630ee17be242084d3095afc519d267572e"
+    },
+    {
+      "path": "provided_data/day3/products.csv",
+      "sha256": "387cd50f684506eb75c36c7ea1d9b79915b6af2ba5a528abd4b8ec1fa551b71f"
+    },
+    {
+      "path": "provided_data/day4/customer_snapshot_2026_09_01.csv",
+      "sha256": "468f606e0e593b5588fc1373ead4d087d9be2d1d264f43da4ab8e96bef18da22"
+    },
+    {
+      "path": "provided_data/day4/customer_snapshot_2026_09_02.csv",
+      "sha256": "307d9d6769b82002c4c242e3b09f9478197e1fedcba10177523c0409b4f092d1"
+    },
+    {
+      "path": "provided_data/day5/orders_incremental_2026_09_03.csv",
+      "sha256": "3c95a3b241285527714a2333f71a039fe4d5589c1aa741c6b3827e63972df39b"
+    },
+    {
+      "path": "provided_data/day5/orders_initial.csv",
+      "sha256": "5464ca81a6b0e92204d7f5aa80b83c2f1c33231f7292e41add443c165e4e669a"
+    },
+    {
+      "path": "provided_data/day5/watermark_state.json",
+      "sha256": "aa62c10964e2765effd4c5cf3890bb487db34c9c482d5aa54006c27ae0ba6293"
+    },
+    {
+      "path": "provided_data/day6_capstone/categories.csv",
+      "sha256": "a3e7f636d95a1c2119e4510e0ac987b44216000592ea874f8b0fc8ad7510a023"
+    },
+    {
+      "path": "provided_data/day6_capstone/customer_latest_snapshot.csv",
+      "sha256": "307d9d6769b82002c4c242e3b09f9478197e1fedcba10177523c0409b4f092d1"
+    },
+    {
+      "path": "provided_data/day6_capstone/customers.csv",
+      "sha256": "c4f00f5dd6ec006a2667cfef6d0e8799d655b9fa63ede58cceccaeaf7b3663c9"
+    },
+    {
+      "path": "provided_data/day6_capstone/order_items.csv",
+      "sha256": "9080cdae0da85b64ce5d5a360b1ba70ddd111bcaa019f58d1820e27cfe637259"
+    },
+    {
+      "path": "provided_data/day6_capstone/orders.csv",
+      "sha256": "8c35a4318c7834a4878eba61f85510a5cd5c7c2ae5aa7a4f4b6e0ecd5d07fbcc"
+    },
+    {
+      "path": "provided_data/day6_capstone/orders_incremental.csv",
+      "sha256": "3c95a3b241285527714a2333f71a039fe4d5589c1aa741c6b3827e63972df39b"
+    },
+    {
+      "path": "provided_data/day6_capstone/payments.csv",
+      "sha256": "36c3cd8443173c6c3d42fb02f19603630ee17be242084d3095afc519d267572e"
+    },
+    {
+      "path": "provided_data/day6_capstone/products.csv",
+      "sha256": "387cd50f684506eb75c36c7ea1d9b79915b6af2ba5a528abd4b8ec1fa551b71f"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "9d39934a61abe0dfb9d96bf096bbb6b4b606fdf628475592cdd080485d58d4a0"
+    },
+    {
+      "path": "starter/day2_format_comparison.py",
+      "sha256": "ac6cf50c1545baddb61a2e6c95332e74af23436485ed36ccff8490b84096343f"
+    },
+    {
+      "path": "starter/day4_scd.py",
+      "sha256": "8f291ccbaee91ad71510708973bf7fbf75bf5a0de50b5e54edaf7d204728ad98"
+    },
+    {
+      "path": "starter/day5_incremental.py",
+      "sha256": "1f3255b5147cdf279065f4e183724c2bf95853da7419d21fd38710b3ea1a4dca"
+    },
+    {
+      "path": "templates/architecture_decision_record.md",
+      "sha256": "9ab2f0e0321c43d15a1771564a5c1126c2ef737cdc4bed82cd980d1cc4a79504"
+    },
+    {
+      "path": "templates/capstone_submission_checklist.md",
+      "sha256": "e10396be41cc66f266cb6af77f118860163e21ff827752b72676f494614dc080"
+    },
+    {
+      "path": "templates/grain_and_model_worksheet.md",
+      "sha256": "19194254da8d9048b001e71091772573e0d7e743e84d06f3be9cb04195a1d01d"
+    },
+    {
+      "path": "templates/source_to_target_mapping.csv",
+      "sha256": "06061483b2321af7fe38a4ffced86fc41fe0a5d59627f98cb38c8f2fcd0e4888"
+    }
+  ]
+}

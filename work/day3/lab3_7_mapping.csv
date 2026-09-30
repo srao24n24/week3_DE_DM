@@ -1,0 +1,38 @@
+source_file,source_column,target_table,target_column,transformation,data_type,key_or_rule
+orders.csv,order_date,DimDate,date_key,derive date_key from order_date,INT,surrogate key
+generated,n/a,DimDate,full_date,generate one row per calendar date,DATE,natural key
+generated,n/a,DimDate,year,extract year from full_date,INT,
+generated,n/a,DimDate,quarter,derive quarter from month,INT,
+generated,n/a,DimDate,month,extract month from full_date,INT,
+customers.csv,customer_id,DimCustomer,customer_key,generate surrogate key,INT,surrogate key PK
+customers.csv,customer_id,DimCustomer,customer_id,No Transformation,INT,business key
+customers.csv,customer_name,DimCustomer,customer_name,No Transformation,VARCHAR,
+customers.csv,email,DimCustomer,email,No Transformation,VARCHAR,
+customers.csv,city,DimCustomer,city,No Transformation,VARCHAR,
+customers.csv,state,DimCustomer,state,No Transformation,VARCHAR,
+customers.csv,customer_segment,DimCustomer,customer_segment,No Transformation,VARCHAR,
+customers.csv,signup_date,DimCustomer,signup_date,No Transformation,DATE,
+products.csv,product_id,DimProduct,product_key,generate surrogate key,INT,surrogate key PK
+products.csv,product_id,DimProduct,product_id,No Transformation,INT,business key
+products.csv,product_name,DimProduct,product_name,No Transformation,VARCHAR,
+products.csv,brand,DimProduct,brand,No Transformation,VARCHAR,
+products.csv,cost_price,DimProduct,cost_price,No Transformation,DECIMAL,
+products.csv,list_price,DimProduct,list_price,No Transformation,DECIMAL,
+products.csv,category_id,DimProduct,category_id,No Transformation,INT,FK to categories
+categories.csv,category_name,DimProduct,category_name,join on category_id then copy,VARCHAR,
+orders.csv,sales_channel,DimChannel,channel_key,generate surrogate key,INT,surrogate key PK
+orders.csv,sales_channel,DimChannel,sales_channel,get distinct values,VARCHAR,business key
+order_items.csv,order_item_id,FactSales,order_item_id,No Transformation,INT,degenerate dimension
+order_items.csv,order_id,FactSales,order_id,No Transformation,INT,degenerate dimension
+orders.csv,order_date,FactSales,date_key,lookup date_key from DimDate,INT,FK
+order_items.csv,product_id,FactSales,product_key,lookup product_key from DimProduct,INT,FK
+orders.csv,customer_id,FactSales,customer_key,lookup customer_key from DimCustomer,INT,FK
+orders.csv,sales_channel,FactSales,channel_key,lookup channel_key from DimChannel,INT,FK
+order_items.csv,quantity,FactSales,quantity,No Transformation,INT,additive measure
+order_items.csv,unit_price,FactSales,unit_price,No Transformation,DECIMAL,non-additive measure
+order_items.csv,discount_pct,FactSales,discount_pct,No Transformation,DECIMAL,non-additive measure
+payments.csv,payment_id,FactPayments,payment_id,No Transformation,INT,degenerate dimension
+payments.csv,order_id,FactPayments,order_id,No Transformation,INT,degenerate dimension
+payments.csv,payment_date,FactPayments,date_key,lookup date_key from DimDate,INT,FK
+payments.csv,payment_method,FactPayments,payment_method,No Transformation,VARCHAR,
+payments.csv,payment_status,FactPayments,payment_status,No Transformation,VARCHAR,

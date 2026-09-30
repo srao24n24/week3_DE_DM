@@ -1,0 +1,22 @@
+customer_id,customer_name,email,city,state,customer_segment,signup_date,last_modified
+1,Customer 1,customer1@example.com,Chennai,Tamil Nadu,Premium,2025-01-04,2026-09-02 08:00:00
+2,Customer 2,customer2@example.com,Bengaluru,Karnataka,Corporate,2025-02-07,2026-09-02 08:00:00
+3,Customer Three,customer.three@example.com,Hyderabad,Telangana,Standard,2025-03-10,2026-09-02 08:00:00
+4,Customer 4,customer4@example.com,Mumbai,Maharashtra,Premium,2025-04-13,2026-09-02 08:00:00
+5,Customer 5,customer5@example.com,Bengaluru,Karnataka,Premium,2025-05-16,2026-09-02 08:00:00
+6,Customer 6,customer6@example.com,Kochi,Kerala,Standard,2025-06-19,2026-09-02 08:00:00
+7,Customer 7,customer7@example.com,Chennai,Tamil Nadu,Premium,2025-07-22,2026-09-02 08:00:00
+8,Customer 8,customer8@example.com,Bengaluru,Karnataka,Corporate,2025-08-25,2026-09-02 08:00:00
+9,Customer 9,customer9@example.com,Mumbai,Maharashtra,Standard,2025-09-01,2026-09-02 08:00:00
+10,Customer 10,customer10@example.com,Mumbai,Maharashtra,Premium,2025-10-04,2026-09-02 08:00:00
+11,Customer 11,customer11@example.com,Pune,Maharashtra,Corporate,2025-11-07,2026-09-02 08:00:00
+12,Customer 12,customer12@example.com,Kochi,Kerala,Standard,2025-12-10,2026-09-02 08:00:00
+13,Customer 13,customer13@example.com,Chennai,Tamil Nadu,Premium,2025-01-13,2026-09-02 08:00:00
+14,Customer 14,customer14@example.com,Bengaluru,Karnataka,Corporate,2025-02-16,2026-09-02 08:00:00
+15,Customer 15,customer15@example.com,Hyderabad,Telangana,Standard,2025-03-19,2026-09-02 08:00:00
+16,Customer 16,customer16@example.com,Mumbai,Maharashtra,Premium,2025-04-22,2026-09-02 08:00:00
+17,Customer 17,customer17@example.com,Pune,Maharashtra,Corporate,2025-05-25,2026-09-02 08:00:00
+18,Customer 18,customer18@example.com,Kochi,Kerala,Standard,2025-06-01,2026-09-02 08:00:00
+19,Customer 19,customer19@example.com,Chennai,Tamil Nadu,Premium,2025-07-04,2026-09-02 08:00:00
+20,Customer 20,customer20@example.com,Bengaluru,Karnataka,Corporate,2025-08-07,2026-09-02 08:00:00
+101,Customer 101,customer101@example.com,Delhi,Delhi,Standard,2026-09-01,2026-09-02 08:00:00
